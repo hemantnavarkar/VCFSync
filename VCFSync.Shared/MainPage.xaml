@@ -19,13 +19,14 @@
                  Margin="10" 
                  HorizontalAlignment="Center" 
                  FontSize="25" 
-                 Foreground="Black"/>
+                 Foreground="Black"
+                 />
 
-        <Panel Grid.Row="1" Background="Yellow"/>
+        <Panel Grid.Row="1"/>
 
         <WrapPanel Grid.Row="2" Margin="10,10,10,10" HorizontalAlignment="Center">
-            <Button Content="Import    " Margin="5"></Button>
-            <Button Content="Export"></Button>
+            <Button Content="Import" Margin="5" Click="TestClick"></Button>
+            <Button Content="Export" Click="TestClick"></Button>
         </WrapPanel>
     </Grid>
 </Page>

@@ -22,9 +22,20 @@ namespace VCFSync
     /// </summary>
     public sealed partial class MainPage : Page
     {
+
+        private ContentDialog dialog;
         public MainPage()
         {
             this.InitializeComponent();
         }
+
+        private async void TestClick(object sender, RoutedEventArgs e)
+        {
+            dialog = new ContentDialog();
+            dialog.PrimaryButtonText = "Ok";
+            dialog.Content = "This is import functionality";
+
+            await dialog.ShowAsync();
+        }
+    } 
     }
-}

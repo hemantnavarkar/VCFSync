@@ -17,7 +17,7 @@
                 <!-- Load the Material control resources -->
                 <MaterialResources xmlns="using:Uno.Material" />
                 
-
+    
             </ResourceDictionary.MergedDictionaries>
             <!-- Add resources here -->
         </ResourceDictionary>
