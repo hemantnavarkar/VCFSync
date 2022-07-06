@@ -120,4 +120,7 @@
   <data name="ApplicationName" xml:space="preserve">
     <value>VCFSync</value>
   </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>VCF Sync</value>
+  </data>
 </root>

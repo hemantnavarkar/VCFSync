@@ -8,7 +8,16 @@
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
+                
                 <!-- Add resource dictionaries here -->
+
+                <!-- Load Material Color Palette with optional ColorPaletteOverrideSource -->
+                <MaterialColors xmlns="using:Uno.Material" ColorPaletteOverrideSource="ms-appx:///ColorPaletteOverride.xaml" />
+
+                <!-- Load the Material control resources -->
+                <MaterialResources xmlns="using:Uno.Material" />
+                
+
             </ResourceDictionary.MergedDictionaries>
             <!-- Add resources here -->
         </ResourceDictionary>

@@ -7,8 +7,25 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
     <Grid>
-      <TextBlock Text="Hello, world!" Margin="20" FontSize="30" />
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+      <TextBlock Grid.Row="0" 
+                 Text="VCF Sync" 
+                 Margin="10" 
+                 HorizontalAlignment="Center" 
+                 FontSize="25" 
+                 Foreground="Black"/>
+
+        <Panel Grid.Row="1" Background="Yellow"/>
+
+        <WrapPanel Grid.Row="2" Margin="10,10,10,10" HorizontalAlignment="Center">
+            <Button Content="Import    " Margin="5"></Button>
+            <Button Content="Export"></Button>
+        </WrapPanel>
     </Grid>
 </Page>
