@@ -13,6 +13,13 @@ namespace VCFSync.Droid
 		)]
 	public class MainActivity : Windows.UI.Xaml.ApplicationActivity
 	{
+		protected override void OnCreate(Bundle bundle)
+		{
+			Xamarin.Essentials.Platform.Init(this, bundle);
+			base.OnCreate(bundle);
+		}
 	}
+
+
 }
 

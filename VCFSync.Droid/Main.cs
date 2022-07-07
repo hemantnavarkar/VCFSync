@@ -26,6 +26,7 @@ namespace VCFSync.Droid
 			: base(() => new App(), javaReference, transfer)
 		{
 			ConfigureUniversalImageLoader();
+			
 		}
 
 		private void ConfigureUniversalImageLoader()
